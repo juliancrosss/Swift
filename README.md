@@ -136,7 +136,7 @@
 
 *Después de ejecutar el código dentro de la caja del switch que hacía juego, el programa sale de la sentencia switch. Ejecución no continúa a la siguiente caso, lo que no hay necesidad de romper explícitamente del switch al final del código de cada caso.*
 
-#for-in manego de diccionarios
+#for-in manejo de diccionarios
 
 *Se utiliza for-in para iterar sobre los elementos de un diccionario, proporcionando un par de nombres a utilizar para cada par clave-valor. Los diccionarios son una colección desordenada, por lo que sus claves y valores se repiten a lo largo de un orden arbitrario ".*
 
@@ -155,6 +155,24 @@
         }
     }
     print(largest)
+    
+#While
+
+*Use while para repetir un bloque de código hasta que una condición cambia. El estado de un bucle puede estar en el extremo en su lugar, asegurando que el bucle se ejecuta al menos una vez ".*
+
+    var n = 2
+
+    while n < 100{
+        n = n * 2
+    }
+    print(n)
+
+
+
+    var m = 2
+    repeat{
+        m = m * 2
+    }while m < 100
 
 
 
