@@ -68,6 +68,24 @@
     
     occupations["Jayne"] = "Public Relations"
     
+*"Para crear una matriz "Array"  o diccionario vacía, utilice la sintaxis inicializador."*
+
+    let emptyArray = [String]()
+    
+    let emptyDictionary = [String: Float]()
+    
+*"Si la información de tipo se puede inferir, puede escribir una matriz vacía como [] y un diccionario vacío como [:] -. Por ejemplo, cuando se establece un nuevo valor para una variable o pasar un argumento a una función"*
+
+*Array Vacia*
+
+    shoppingList = []
+  
+*Diccionario Vacio*
+    
+    occupations = [:]
+    
+
+    
 
 
 
