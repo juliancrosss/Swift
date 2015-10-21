@@ -52,6 +52,22 @@
     
     let fruitSummary = "I have \(apples + oranges) pieces of fruit."
     
+#Arrays y Diccionarios 
+
+*Crear matrices "Arrays" y diccionarios utilizando corchetes ([]), y acceder a sus elementos escribiendo el índice o clave entre corchetes. Se permite una coma después del último elemento ".*
+
+*Array*
+
+    var shoppingList = ["catfish", "water", "tulips", "blue paint"]
+    
+    shoppingList[1] = "bottle of water"
+    
+*Diccionarios*
+
+    var occupations = ["Malcolm": "Captain", "Kaylee": "Mechanic",]
+    
+    occupations["Jayne"] = "Public Relations"
+    
 
 
 
