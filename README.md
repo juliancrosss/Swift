@@ -34,11 +34,11 @@ let explicitFloat: Float = 70
 
 *Los valores implícitamente no se convierten  a otro tipo, Si necesita para convertir un valor a un tipo diferente, hacer explícita una instancia al tipo deseado.*
 
-let label = "The width is "
+    let label = "The width is "
 
 let width = 94
 
-let widthLabel = label + String(width)
+    let widthLabel = label + String(width)
 
 *Convirtiendo la constante width a un String y se almacena en la constante widthLabel*
 
