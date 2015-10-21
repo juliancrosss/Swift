@@ -118,6 +118,20 @@
         greeting = "Hello, \(name)"
     }
     
+*"Si el valor opcional es nil, "El condicional es falso y el código entre llaves se omite"."De lo contrario, el valor es opcional sin envolver y asignado a la constante después de let, lo que hace que el valor sin envolver disponible dentro del bloque de código.""Switches soportan cualquier tipo de datos y una amplia variedad de operaciones de comparación, que no se limitan a los números enteros y las pruebas para la igualdad."*
+
+    let vegetable = "red pepper"
+    switch vegetable{
+    case "celery":
+        print("Add some raisins and make ants on a log.")
+    case "cucumber", "watercress":
+        print("That would make a good tea sandwich.")
+    case let x where x.hasSuffix("pepper"):
+        print("Is it a spicy \(x)?")
+    default:
+        print("Everything tastes good in soup.")
+    }
+    
 
     
 
