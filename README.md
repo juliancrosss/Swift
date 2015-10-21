@@ -84,6 +84,29 @@
     
     occupations = [:]
     
+#Flujos de Control
+
+*"Usar if y switch para hacer los condicionales" y for-in, for, while y repeat-while para hace bucles.Parentesis alrededor de la condicional o bucle variables son opcionales. LLaves alrededor del cuerpo son requeridos*
+
+    let individualScores = [75, 43, 103, 87, 12]
+    
+    var teamScore = 0
+    
+    for score in individualScores {
+    
+        if score > 50{
+        
+            teamscore += 3
+        }else{
+        
+            teamscore += 1
+        }
+        
+    }
+    
+    print(teamScore)
+
+    
 
     
 
