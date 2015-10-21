@@ -173,7 +173,34 @@
     repeat{
         m = m * 2
     }while m < 100
+    
+*Usted puede mantener un índice en un bucle, ya sea mediante el uso de .. <para hacer una serie de índices o escribiendo una explícita inicialización, condición, y la subasta. Estos dos bucles hacen lo mismo "*
 
+    var firstForLoop = 0
+    for i in 0..<4{
+        firstForLoop += i
+    }
+    print(firstForLoop)
+    
+*Ejemplo2*
+    
+    var secondForLoop = 0
+    for var i = 0; i < 4; ++i{
+        secondForLoop += i
+    }
+    print(secondForLoop)
+    
+*"Use .. < para hacer un rango que omite su valor superior, y use ... para hacer un rango que incluye ambos valores.*
+
+#Funcciones y Cierres
+
+*"Use func para declarar una función. Llame a una función siguiendo su nombre con una lista de argumentos entre paréntesis. Use -> para separar los nombres de los parámetros y tipos del tipo de retorno de la función*
+
+    func greet(name: String, day: String)->String{
+        return "Hello \(name), today is \(day)."
+    }
+
+    greet("Julian Cruz",day: "Wednesday")
 
 
     
