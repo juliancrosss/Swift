@@ -106,7 +106,17 @@
     }
     
     print(teamScore)
+    
+*En una if declaracion, la condifional debe ser un Boolean expression, esto significa que el codigo como "if score { ... } es un error , no una implicita comparacion a cero. "Se puede utilizar if y let  juntos para  trabajar con valores que pudieran faltar."Estos valores se representan como opcionales .Un valor opcional o bien que contiene un valor o contiene nil para indicar que falta un valor. Escriba un signo de interrogación (?) Después de que el tipo de un valor para marcar el valor como opcional "."*
 
+    var optionalString: String? = "Hello"
+    print(optionalString == nil)
+
+    var optionalName: String? = "Julian Cruz"
+    var greeting = "Hello!"
+    if let name = optionalName{
+        greeting = "Hello, \(name)"
+    }
     
 
     
