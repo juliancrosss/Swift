@@ -42,6 +42,17 @@
 
 *Convirtiendo la constante width a un String y se almacena en la constante widthLabel*
 
+*Hay una manera aún más sencilla para incluir valores en Strings: Escriba el valor entre paréntesis, y escribir una barra invertida (\) antes del paréntesis. Por ejemplo:"*
+
+    let apples = 3
+    
+    let oranges= 5
+    
+    let applesSummary = "I have \(apples) apples."
+    
+    let fruitSummary = "I have \(apples + oranges) pieces of fruit."
+    
+
 
 
 
