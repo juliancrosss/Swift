@@ -96,10 +96,11 @@
     
         if score > 50{
         
-            teamscore += 3
+            teamScore += 3
+            
         }else{
         
-            teamscore += 1
+            teamScore += 1
         }
         
     }
