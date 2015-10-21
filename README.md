@@ -4,7 +4,7 @@
 
 ##Imprimiendo con Swift
 
-print("Hola, Mundo!")
+    print("Hola, Mundo!")
 
 *Esta linea de codigo es un total programa , no es necesario importar librerias, no es necesario escribir punto y coma al final de la setencia*
 
@@ -16,21 +16,21 @@ var = para hacer variables
 
 *Ejemplo  Una variable o constante  debe tener el mismo tipo de dato*
 
-var myVariable = 42
+    var myVariable = 42
 
-myVariable = 50
+    myVariable = 50
 
-let myConstant = 42 
+    let myConstant = 42 
 
 ##Especificando explicitamente  tipo de dato de una variable o una constante -obligatorio-
 
-let implicitInteger = 70
+    let implicitInteger = 70
 
-let implicitDouble = 70.0
+    let implicitDouble = 70.0
 
-let explicitDouble: Double = 70
+    let explicitDouble: Double = 70
 
-let explicitFloat: Float = 70
+    let explicitFloat: Float = 70
 
 *Los valores implícitamente no se convierten  a otro tipo, Si necesita para convertir un valor a un tipo diferente, hacer explícita una instancia al tipo deseado.*
 
