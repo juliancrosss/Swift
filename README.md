@@ -10,9 +10,9 @@
 
 #Simples Valores
 
-let = para hacer constantes
+    let = para hacer constantes
 
-var = para hacer variables
+    var = para hacer variables
 
 *Ejemplo  Una variable o constante  debe tener el mismo tipo de dato*
 
@@ -36,7 +36,7 @@ var = para hacer variables
 
     let label = "The width is "
 
-let width = 94
+    let width = 94
 
     let widthLabel = label + String(width)
 
