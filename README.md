@@ -132,6 +132,11 @@
         print("Everything tastes good in soup.")
     }
     
+*Observe cómo let puede ser utilizado en un modelo para asignar el valor que hacía juego con la parte de un patrón a una constante."*
+
+*Después de ejecutar el código dentro de la caja del switch que hacía juego, el programa sale de la sentencia switch. Ejecución no continúa a la siguiente caso, lo que no hay necesidad de romper explícitamente del switch al final del código de cada caso.*
+
+*Se utiliza for-in para iterar sobre los elementos de un diccionario, proporcionando un par de nombres a utilizar para cada par clave-valor. Los diccionarios son una colección desordenada, por lo que sus claves y valores se repiten a lo largo de un orden arbitrario ".*
 
     
 
