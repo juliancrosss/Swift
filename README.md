@@ -226,6 +226,42 @@
 
     print(statistics.sum)
     print(statistics.2)
+    
+*Las funciones también pueden tomar un número variable de argumentos, a su recogida en una matriz.*
+
+    func sumOf(numbers: Int...) -> Int{
+        var sum = 0 
+        for number in numbers{
+            sum += number
+        }
+    return sum
+    }
+    
+    sumOf()
+    sumOf(42, 597, 12)
+    
+*"Las funciones se pueden anidadas. Funciones anidadas tienen acceso a las variables que fueron declaradas en la función externa. Puede utilizar funciones anidadas para organizar el código en una función que es largo o complejo*
+
+    func returnFifteen() -> Int {
+        var y = 10 
+        func add(){
+            y += 5
+        }
+        add()
+        return y 
+    }
+    returnFifteen()
+    
+*"Las funciones son un tipo de primera clase. Esto significa que una función puede devolver otra función como su valor"*
+
+    func makeIncrementer() -> ((Int) -> Int){
+        func addOne(number: Int) -> Int {
+            return 1 + number
+        }
+        return addOne
+    }
+    var increment = makeIncrementer()
+    increment(7)
 
 
 
